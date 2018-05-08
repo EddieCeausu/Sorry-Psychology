@@ -1,0 +1,53 @@
+// =================
+// TYPOGRAPHY
+// =================
+
+$body-font: 'Oswald', sans-serif;
+
+
+// =================
+// COLORS
+// =================
+
+	$black: #080808;
+	$brown: #640303;
+	$board: #fafaf8;
+	$darkpurple: #5e3577;
+	$lightblue: #d2eaf5;
+	$purple: #b02f7c;
+	$orange: #fa811d;
+	$red: #f50c2b;
+	$yellow: #ffed20;
+	$green: #41994e;
+	$darkblue: #5a6dba;
+
+	// Property colors
+
+	.darkpurple { background: $dark-purple; }
+	.lightblue  { background: $light-blue; }
+	.purple      { background: $purple; }
+	.orange      { background: $orange; }
+	.red         { background: $red; }
+	.yellow      { background: $yellow; }
+	.green       { background: $green; }
+	.darkblue   { background: $dark-blue; }
+
+
+// =================
+// GLOBAL
+// =================
+
+* {
+	box-sizing: border-box;
+}
+
+
+canvas {
+	background: lightblue;
+	display: block;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
