@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+/*
 // =================
 // COLORS
 // =================
-
+*/
 	$black: #080808;
 	$brown: #640303;
 	$board: #fafaf8;
@@ -27,15 +27,24 @@
 	.green       { background: $green; }
 	.darkblue   { background: $darkblue; }
 
-
+/*
 // =================
 // GLOBAL
 // =================
+*/
+* {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+																supported by Chrome and Opera */
+}
 	body {
 		margin: 0;
 		padding: 0;
-		font-family: 'Oswald', sans-serif;
-		font-weight: 400;
+		font-weight: 300;
 	  font-size: 10px;
 	  color: black;
 	  text-transform: uppercase;
@@ -47,61 +56,88 @@
 	.board {
 		border: 5px solid black;
 		margin: 0 auto;
-		width: 100em;
+		width: auto;
 		height: auto;
+
 	}
+	/*
+	// ======================
+	// CENTER OF THE BOARD
+	// ======================
+	*/
 	.center {
-		margin: 100px 8em;
+		
 		height: auto;
 		border: 5px solid black;
-		background-color: #eee;
+		background-color: lightblue;
 	}
 	.cardDiscard {
 		margin: 0 auto;
-		border: 5px dotted black;
 		width: 300px;
 		height: auto;
 		margin-top: 1em;
+		transform: rotate(90deg);
 	}
 	.cardDraw {
 		margin: 0 auto;
-		border: 5px dotted black;
 		width: 300px;
 		height: auto;
 		margin-bottom: 1em;
+		transform: rotate(90deg);
 	}
 
 	.CardActionArea {
 		padding-top: 2em;
 		padding-bottom: 2em;
+		text-align: center;
+		transform: rotate(-90deg);
+		line-height: 12px;
 	}
 
 	#Text1 {
-		font-size: 60px;
-		text-align: center;
+		font-size: 50px;
 	}
 
 	#Text2 {
 		font-size: 20px;
-		text-align: center;
 	}
 
 	.title {
 		margin: 0 auto;
-		padding: 20px;
+		padding: -20px;
 		width: 500px;
 		height: auto;
-		font-family: 'Oswald', sans-serif;
+		font-family: 'Slabo 27px', serif;
 		position: relative;
 		text-align: center;
 	}
 
 	.title h1 {
 		letter-spacing: 5px;
+		text-transform: uppercase;
 		font-size: 100px;
 	}
 
 	.title h3 {
 		letter-spacing: 2px;
-		font-size: 70px;
+		font-size: 40px;
+	}
+	/*
+	// ======================
+	// EDGE OF THE BOARD
+	// ======================
+	*/
+	#square {
+
+	}
+	.moveBlocks {
+		width: 80px;
+		height: 80px;
+		border: 5px solid black;
+		color: #0000;
+
+	}
+	.topMoveArea {
+		display: inline-flex;
+		align-items: left;
 	}
