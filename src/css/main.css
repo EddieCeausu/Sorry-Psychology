@@ -138,11 +138,11 @@
 	}
 	.topMoveArea {
 		display: grid;
-		grid-template-columns: repeat(10, 1fr);
+		grid-template-columns: repeat(16, 1fr);
 		grid-template-rows: auto;
 	}
 	.bottomMoveArea {
 		display: grid;
-		grid-template-columns: repeat(10, 1fr);
+		grid-template-columns: repeat(16, 1fr);
 		grid-template-rows: auto;
 	}

@@ -1,0 +1,794 @@
+In________ reinforcement, the reinforcer follows every correct response.
+intermittent
+partial
+negative
+Continuous
+
+This scientist used operant conditioning to train rats and pigeons to differentiate between light and dark
+Watson
+Pavlov
+Skinner
+
+Your school has a goal of students being more prepared for class. For the first time all year, all of your students come to class prepared. How would you use positive reinforcement to try to increase the chance of this behavior happening again?
+Give the entire class a free ice cream pass to use in the cafeteria.
+Take away a homework assignment for that night.
+Drop each student's lowest quiz grade for that marking period.
+Do nothing. Students should be prepared anyway.
+
+Classical conditioning methods were demonstrated by this scientist.
+Watson
+Pavlov
+Skinner
+
+A second grade student loses 1 minute of recess every time she breaks a classroom rule.  Eventually, the student stops breaking the classroom rules.  This is an example of
+Positive reinforcement
+Negative reinforcement
+Positive punishment
+Negative punishment
+
+This scientist conducted a controversial experiment involving a baby and a rat.
+Watson
+Pavlov
+Skinner
+
+You are trying to train your dog not to jump on guests when they walk into your home.  You buy a zap collar at the store, which has a remote that will shock the dog when you push a button.  Every time your dog jumps on a person, you push the button, and the dog gets an electric shock. Which scientist’s experiments are you most closely replicating?
+Pavlov
+Gagne
+Skinner
+Walters
+
+You are absent from school for an afternoon.  When you return, you read the report left by your substitute.  The report states that half of your class behaved wonderfully and completed their entire assignment.  The other half of the class misbehaved and did not finish their assignment.  For the students who behaved, you give them free time on the computer.  For the students who misbehaved, you give them an extra, more difficult assignment to accomplish.  In this situation, you provided…
+Positive reinforcement and positive punishment.
+Positive reinforcement and negative punishment.
+Negative reinforcement and negative punishment.
+Negative reinforcement and positive punishment.
+
+This scientist used operant conditioning to train rats and pigeons to differentiate between light and dark.
+Watson
+Pavlov
+Skinner
+
+The period of time when the conditioned stimulus first comes to evoke the conditioned response is called:
+Adaptation
+Discrimination
+Acquisition
+Habituation
+
+Little Albert was conditioned to fear a white rat, but he was also afraid of other furry, white objects. This is called:
+Phobic behavior
+Stimulus discrimination
+Superstitious behavior
+Stimulus generalization
+
+Who outlined the behaviorist school of thought in his 1913 paper "Psychology As the Behaviorist Views It?"
+B.F. Skinner
+John B. Watson
+Ivan Pavlov
+Edward Thorndike
+
+What is a reinforcer?
+Any event that strengthens or increases a response
+Something the individual finds pleasant
+Anything that decreases a response
+An incentive
+
+The sudden reappearance of a response after a period of extinction is known as:
+Stimulus generalization
+Extinction
+Stimulus discrimination
+Spontaneous recovery
+
+Which of the following is true of learning?
+Learning is a relatively permanent change in behavior
+Learning only occurs through conditioning
+Learning is a passive process
+All of the above
+
+Innate reinforcers such as food and water that diminish a biological need are known as:
+Primary reinforcers
+Secondary reinforcers
+
+A worker is rewarded for the first response after a specified period of time. What reinforcement schedule is this?
+Fixed Interval Schedule
+Variable Ratio Schedule
+Fixed Ratio Schedule
+Variable Interval Schedule
+
+In classical conditioning, the natural and unlearned reaction to an unconditioned stimulus (UCS) is known as the:
+Unconditioned stimulus
+Unconditioned response
+Conditioned stimulus
+Conditioned response
+
+Which of B.F. Skinner's schedules of reinforcement is the most difficult to extinguish?
+Fixed interval
+Fixed ratio
+Variable ratio
+Variable interval
+
+What is a punishment?
+An unpleasant event or stimulus
+Any undesired event or stimulus that weakens or decreases a behavior
+A disagreeable consequence
+Something the individual dislikes
+
+What learning process did B.F. Skinner describe?
+Observational learning
+Modeling
+Operant conditioning
+Classical conditioning
+
+In Pavlov's classic experiment with dogs, the food was the:
+Unconditioned stimulus
+Unconditioned response
+Conditioned stimulus
+Conditioned response
+
+While Ivan Pavlov is famous for his contributions to psychology, he was actually a:
+Linguist
+Physiologist
+Zoologist
+Botanist
+
+Negative reinforcement increases the strength or frequency of a response by _____ an aversive stimulus.
+Increasing
+Decreasing
+Removing
+Ignoring
+
+Behaviorism focuses on internal changes which we cannot observe.
+True
+False
+
+Who is commonly known as the founder of Behaviorism?
+Edwin Guthrie
+Ivan Pavlov
+John B. Watson
+Sigmund Freud
+
+What did B.F. Skinner use to condition his subjects to behave in a certain way?
+Behaviorism Conditioning Device
+Classical Conditioning Apparatus
+Operant Conditioning Apparatus
+Behaviorist Conditioner
+
+Spontaneous recovery is when, for some time after extinction, a response can reappear at the sudden presentation of the conditioned stimulus.
+True
+False
+
+Which of the following methods was not proposed by Edwin Guthrie to break a habitual behavior?
+Implosive method
+Threshold method
+Fatigue method
+Method of Incompatible Stimuli
+
+The Law of Reversibility states that behaviors followed by satisfying or pleasant consequences are likely to be repeated, and those followed by unpleasant consequences are less likely to be repeated.
+True
+False
+
+Which of the following is the most accurate description of cognition?
+Cognition is about awareness.
+Cognition includes a wide range of mental activities and psychological processes.
+Intelligence is the main focus of cognition.
+Cognition is primarily about intuitive processes.
+
+Broadbent’s general filter model of attention was constructed based upon auditory experiments in the laboratory. This approach is not consistent with ________.
+an ecological approach to perception
+how we process information to give it meaning
+the cognitive ethology approach to research
+Both a and c.
+
+In a cognitive psychology experiment, participants are required to respond to five equally probable alternatives. If the number of alternatives is increased to eight, the reaction time will ________.
+increase
+decrease
+stay the same
+
+________ theory emphasizes that learning means becoming progressively more attuned to what the environment affords us.
+Ecological approach
+Cognitive ethology
+Broadbent’s filter theory
+Information pickup
+
+Metacognition is best described as ________.
+thinking about thinking
+advanced cognitive theory
+information metaprocessing
+thoughts of a surreal nature
+
+Typical symptoms of a patient with Broca’s aphasia involve the inability to ________.
+produce speech
+comprehend speech
+repeat speech
+read aloud
+
+Using Positron Emission Tomography (PET) is preferable to measuring event-related potentials (ERP) when ________.
+locating a specific neural structure within the brain
+identifying increased activity within a specific brain structure during a cognitive task
+performing phrenological studies on brain function
+working with animal brains instead of human brains
+
+Which of the following theories of the mind/brain relation is least likely to encourage the study of mental activity in order to provide insights regarding brain activity?
+Epiphenomenalism
+Parallelism
+Isomorphism
+Interactionism
+
+Which of the following would you expect to have had the largest influence on the development of connectionist models?
+The advent of the telephone and radio helped theorists conceptualize cognition as the transfer of information through a system.
+The advent of the computer helped theorists conceptualize cognition as the flow of information through a series of processing structures.
+The advent of neuroscience techniques helped theorists conceptualize cognition as the patterns of activity in a complex, interconnected network of neurons.
+The advent of brain injury studies helped theorists conceptualize cognition as the product of specialized regions of the brain.
+
+Which of the following methods in cognitive neuroscience provides the greatest spatial resolution for measuring brain activity?
+Lesions
+fMRI
+Multi-unit recording
+ERP
+
+The assumption that cognitive processing is restricted to only one connection at a time is known as ________.
+parallel processing
+parallel distributed processing
+serial processing
+information processing
+
+Bottom-up processing in object recognition refers to the ________.
+construction of the visual image from the base to the peak.
+illusion that objects possess more perceptual data than they actually do.
+contribution of previous knowledge to object recognition.
+contribution of the visual features of a stimulus to object recognition.
+
+The process by which an emerging percept makes contact with a prior memory trace is known as ________.
+perceptual synapse
+Höffding function
+memory probe
+trace detection
+
+The word superiority effect would not be expected to aid your letter recognition if ________.
+the word is very long.
+the letter is difficult to see
+if the word is from a foreign language you do not understand.
+the word is a noun.
+
+Which of the following is not a principle of grouping proposed by the Gestalt psychologists?
+Pragnanz
+Similarity
+Proximity
+Constancy
+
+Which of the following is consistent with Gibson’s ecological approach to perception?
+Information comes from the senses helps to create an internal representation of the environment.
+Past experiences and prior knowledge help to create an internal representation of the environment.
+The way we actively organize information into wholes helps us create an internal representation of the environment
+The way we apprehend information directly from the environment helps guide our actions in the world.
+
+Which of the following is an example of using divided attention?
+Reading a sentence, then writing notes on it.
+Picking up where you left off on your essay after going to the store.
+Driving a car while talking on a cell phone.
+Alternating between listening to your professor lecture and taking notes.
+
+What pattern of eye movement would most likely be seen when reading a relatively easy text?
+Longer fixation durations, more regressions, and less saccades
+Shorter fixation durations, more regressions, and less saccades
+Shorter fixation durations, less regressions, and more saccades
+Longer fixation durations, less regressions, and more saccades
+
+As you watch a movie with subtitles, you realize that even while watching the movie you are reading the lines of text without any difficulty. This is an example of ________. At some point you decide to check the subtitles for spelling errors. This is an example of ________.
+automatic processing; controlled processing
+controlled processing; automatic processing
+attention capture; inattentional blindness
+inattentional blindness; attention capture
+
+Carl drops his contact lens on the floor and begins to carefully search for it. While searching for his lens, he will rely on ________.
+attentional blink
+subliminal perception
+covert attention
+overt attention
+
+Adjusting the position of the eye so that a stationary object falls directly onto the fovea and remains there is called ________.
+Fixation
+Saccade
+smooth pursuit movement
+coincidence
+
+Prior to the emergence of schema theories, the typical conception of a memory trace was that of it being similar to a ________.
+pencil and paper
+recording device
+Computer
+None of the above.
+
+Consolidation of memory is thought to occur in which brain structure?
+The frontal cortex
+The hippocampus
+The cerebellum
+The thalamus
+
+According to Nader and Bartlett, the recollection of a memory is ________ the original experience.
+a faithful snapshot of
+like travelling back in time to
+a dynamic reconstruction of
+a low quality recording of
+
+In the War of Ghosts study, people tended to select some material and omit other material. These omissions reflected a process of ________.
+selection
+Interpretation
+rationalization
+plasticity
+
+Life scripts are ________ and not ________.
+descriptive; predetermined
+prescriptive; descriptive
+predetermined; selected
+None of the above.
+
+Which of the following is not a subcomponent of Baddeley‘s working memory model?
+The semantic buffer
+The phonological loop
+The episodic buffer
+The visuospatial sketchpad
+The central executive
+
+When Georgina hears the word ‘test’, she immediately thinks of the words ‘study’, ‘stress’, and ‘grades’. This is an example of ________.
+involuntary semantic memory
+spreading activation
+the fan effect
+primacy bias
+
+Jenna goes to a party and meets a few new people. She learns these facts about some of the people she meets: - Andre studies civil engineering. - Allison is dating Julian. - Kimmy studies psychology. - Kimmy dated Andre a few months ago. After the party she remembers rather quickly that Allison is dating Julian, but she takes a longer time to remember who Kimmy used to date. This is most likely due to ________.
+the fan effect
+the ceiling effect
+the butcher-on-the-bus phenomenon
+implicit memory
+
+Which of the following memory phenomena is thought to commonly affect older persons and is characteristic of the forgetfulness of names and their associated faces?
+Korsakoff’s syndrome
+Encoding specificity
+The associative deficit
+The disconnection syndrome
+
+You sit and cross your legs, and a physician taps your leg just below the knee. As a result, you kick reflexively. Which of the following is involved in your reflexive response?
+white matter in the spinal cord
+the somatosensory cortex
+afferent neurons
+the motor cortex
+
+Neurotransmitters have been implicated in a number of human behaviors and experiences including:
+depression
+intelligence
+growth
+socioeconomic status
+
+The limbic system plays an important role in regulating:
+motivation
+memory
+emotion
+All of the above
+
+If you had to sacrifice an ounce of brain tissue, you would not want to take it from the hypothalamus. Why?
+the hypothalamus regulates basic emotions like fear
+stimulation of the hypothalamus causes pleasure
+the hypothalamus helps us to retrieve important personal memories
+stimulation of the hypothalamus releases acetylcholine
+When we are afraid, the ________ division of the Autonomic Nervous System accelerates the heart rate.
+somatic
+peripheral
+sympathetic
+Parasympathetic
+
+The ________ lobe in the back of the brain is the primary visual cortex.
+temporal
+occipital
+frontal
+Parietal
+
+Homer suffered major skull damage when his youngest daughter, Maggie, hit him in the head with a large mallet. Dr. Julius Hibbert believes there is damage to the ________ of Homer's brain, because Homer is having trouble comprehending other people's speech and thinking of the proper words to express his own ideas.
+Delgado's
+Milner's
+Wernicke's
+Gazzaniga's
+
+Research on cerebral lateralization suggests that the right hemisphere plays a vital role in:
+visual-spatial tasks
+music
+face recognition
+All of the above
+
+You are working as a researcher in a toxicology lab. One day, you accidentally inject yourself with curare, a poison that blocks the release of acetylcholine in the nervous system. What will you experience?
+violent muscle contractions
+hand tremors
+paralysis
+sleeplessness
+
+The ________ the need for precise control over a body part, the ________ is its area in the motor cortex.
+greater; smaller
+smaller; greater
+greater; larger
+There is no relation between need for control over a body part and the size of motor cortex area
+
+The ________ helps regulate "primitive" life-support functions like breathing, whereas the ________ controls "higher" mental processes like complex learning.
+brainstem; cortex
+limbic system; cortex
+brainstem; limbic system
+cortex; limbic system
+
+Which of the following structures is found in the hindbrain?
+pons
+hypothalamus
+limbic system
+Cerebrum
+
+When the neuron is in a resting state, ________ ions are more common inside than outside the neuron.
+sodium
+chlorine
+fluorine
+Radon
+
+Motor neurons are otherwise known as:
+afferent neurons
+efferent neurons
+glial cells
+reflex arcs
+
+Behavioral neuroscientists utilize a variety of research methods in their attempts to understand the human brain. Examples of experimental intervention include:
+the creation of brain lesions
+the administration of drugs
+electrical brain stimulation
+All of the above
+
+Bart was in an accident that caused him to sustain some minor damage to his limbic system. The accident seems to have affected his ability to form new memories. What part of the limbic system is likely to have been involved?
+the amygdala
+the hypothalamus
+the hippocampus
+the thalamus
+
+A split-brain patient is shown a slide of the words "South Park" in such a way that her right visual field (the left hemisphere of the brain) sees only the word "South" and her left visual field (the right hemisphere of the brain) sees only the word "Park." When asked to tell what she sees, what will she say?
+South
+Park
+South-Park
+Park-South
+
+You are getting ready to go to your next class. As you are walking, a friend of yours calls out a greeting. You turn around and reply, "Hi. How are you doing?" The type of neuron that enabled you to turn around is ________; the type of neuron that enabled you to hear your friend's greeting is ________.
+sensory; motor
+motor; sensory
+sensory; interneuron
+motor; motor
+
+The small fluid-filled gap between neurons, across which neurotransmitters travel, is called the:
+synapse
+axon terminal
+interneuron
+synaptic cleft
+
+The key language centers in the brain are located in the:
+limbic system
+frontal lobe
+right hemisphere
+left hemisphere
+
+Psychologists usually attempt to carry out adoptee studies in order to:
+find siblings whose genetic codes overlap by 50% or more
+study the conditions that lead to adoption
+better sort out the effects of nature and nurture
+learn whether traits such as eye color and height can be genetically transmitted
+
+Suppose that you receive treatment for your curare poisoning. However, Cosmo Kramer, your doctor, accidentally injects you with a solution that causes the release of serotonin. What will you feel now?
+depressed
+sleepy
+schizophrenic
+Anxious
+
+________ increase(s) the release of dopamine and norepinephrine, and also impede(s) their reabsorption after neurons have fired.
+ Phenothiazines
+ LSD
+ Amphetamines
+ Endorphins
+
+If you wanted to be able to reward a rat with a burst of electricity for engaging in a certain behavior, then it would be most useful to implant the electrode into a section of the rat's:
+reticular activating system
+parietal lobe
+Hypothalamus
+spinal cord
+
+Peyton Westlake has severe epilepsy. One possible way of reducing the severity of his seizures is to sever the:
+limbic system
+frontal lobe
+corpus callosum
+Wernicke area
+
+One of the neurons in your brain receives stimulation from a few neighboring neurons and, as a result, it fires. The same receiving neuron then receives messages from larger and larger numbers of neighboring neurons. As a consequence, the receiving neuron:
+fires more strongly
+fires more frequently
+shows no change in its pattern of firing
+releases more inhibitory than excitatory neurotransmitters
+
+The right hemisphere of the cerebral cortex is usually relatively more involved with:
+understanding syntax
+face recognition
+problem solving
+associating written words with their sounds
+
+Action potentials have which of the following characteristics?
+they are triggered any time a neuron is stimulated
+they are an all-or-none response
+they are reversible
+all of the above
+
+The motor reflex lies in the ________ lobe.
+frontal
+parietal
+temporal
+occipital
+
+Receptor sites for neurotransmitters are found on the ________ of receiving neurons.
+dendrites
+synaptic vesicles
+clefts
+Axons
+
+In psychoanalytic theory, the defense mechanism that involves banishing threatening thoughts, feelings, and memories into the unconscious mind is known as:
+repression
+pleasure principle
+reality principle
+rationalization
+
+In Freud's theory, the part of the personality that helps the individual adapt to external reality by making compromises between the id, the superego, and the environment is the:
+ego
+pleasure principle
+reality principle
+rationalization
+
+The process by which the ego directs the individual to express sexual and aggressive impulses in socially acceptable ways is (the):
+repression
+pleasure principle
+reality principle
+rationalization
+
+According to Freud, the _____ 	mind includes accessible memories, which can be recalled at will.
+conscious
+preconscious
+unconscious
+psychic determinism
+
+The notion of _____ 	holds that all behavior is influenced by unconscious motives, as is exhibited in Freudian slips.
+conscious
+preconscious
+unconscious
+psychic determinism
+
+According to Freud, a process that distorts reality to prevent the individual from being overwhelmed by anxiety is known as:
+defense mechanism
+projection
+psychic determinism
+the unconscious
+
+In psychoanalytic theory, ______ is the defense mechanism that involves expressing feelings toward a person who is less threatening than the person who is the true target.
+regression
+rationalization
+projection
+displacement
+
+The defense mechanism known as ____ involves attributing one's own undesirable feelings to other people.
+regression
+rationalization
+projection
+displacement
+
+According to Freud, ____ is the defense mechanism that involves reverting to immature behaviors that have relieved anxiety in the past.
+regression
+rationalization
+projection
+displacement
+
+Which of these is the most successful defense mechanism according to Freud?
+reaction formation
+sublimation
+fixation
+displacement
+
+According to Freud's theory of psychosexual development, the stage between age five and puberty, during which there is little psychosexual development is the:
+oral stage
+anal stage
+phallic stage
+latent stage
+
+Which of these projective tests uses the perception of inkblots to assess respondents' personality types?
+Minnesota Multiphasic Personality Inventory
+Myers-Briggs Type Indicator Test
+Thematic Apperception Test
+Rorschach Test
+
+A person who is socially outgoing and prefers to pay attention to the external environment is an:
+introvert type
+extrovert type
+archetype type
+inferiority type
+
+According to Eysenck's three-factor theory of personality, which one of the following factors refers to a person's level of stability/instability?
+extraversion
+conscientiousness
+neuroticism
+psychoticism
+
+The concept of ____ reflects Bandura's belief that neither personal dispositions nor environmental factors can by themselves explain behavior, but instead assumes cognitive factors, environmental factors, and overt behavior affect one another.
+behavioral aggregation
+self-monitoring
+self-efficacy
+reciprocal determinism
+
+The field that studies how the actual, imagined, or implied presence of other people affect one another's thoughts, feelings, and behaviors is:
+social psychology
+sociology
+psychiatry
+forensic psychology
+
+The cognitive process by which we infer the causes of both our own and other people's social behavior is known as:
+stereotype
+social schema
+social cognition
+causal attribution
+
+A social schema that incorporates characteristics, which may be positive or negative, supposedly shared by almost all members of a group is a:
+stereotype
+social schema
+social cognition
+causal attribution
+
+A cognitive structure comprising the presumed characteristics of a role, an event, a person or a group is a:
+stereotype
+social schema
+social cognition
+causal attribution
+
+The tendency to make dispositional attributions for one's successes and situational attributions for one's failures is known as:
+self-fulfilling prophecy
+social schema
+self-serving bias
+stereotype
+
+The tendency for one person's expectations to influence another person to behave in accordance with them is known as:
+self-fulfilling prophecy
+social schema
+self-serving bias
+stereotype
+
+One of the factors that determines liking, _____increases the likelihood of interpersonal attraction due to frequent encounters with persons who live close to you, work with, or attends the same classes as you.
+similarity
+physical attractiveness
+familiarity
+proximity
+
+The factor that determines interpersonal attraction due to mere exposure is:
+similarity
+physical attractiveness
+familiarity
+proximity
+
+Love characterized by feelings of affection and commitment to a relationship with another person is:
+unrequited love
+romantic love
+passionate love
+companionate love
+
+A theory of persuasion that considers the extent to which messages take a central route or a peripheral route is the:
+elaboration likelihood model
+self-perception theory
+cognitive-dissonance theory
+two-factor theory of love
+
+According to Janis, _____ occurs when people are deeply involved in a cohesive in-group, and when the members' strivings for unanimity override their motivation to realistically appraise alternative
+social facilitation
+groupthink
+persuasion
+social loafing
+
+When working together on a task, ____ decreases individual effort exerted by group members.
+social facilitation
+groupthink
+persuasion
+social loafing
+
+The improvement in a person's task performance when in the presence of other people is:
+social facilitation
+groupthink
+persuasion
+social loafing
+
+Behaving in accordance with group expectations with little or no overt pressure to do so is:
+groupthink
+social loafing
+persuasion
+conformity
+
+The process of ________occurs when group members become less aware of themselves as individuals and less concerned about being socially evaluated.
+groupthink
+deindividuation
+conformity
+social loafing
+
+The field of psychology that studies physical, perceptual, cognitive, and psychosocial changes across the life span is known as _______ psychology.
+Cognitive
+Evolutionary
+Clinical
+Developmental
+
+A research design in which the same group of participants is tested or observed repeatedly over a period of time is known as:
+longitudinal research
+cross-sectional research
+correlational research
+experimental research
+
+The research method in which groups of participants of different ages are compared at the same point in time is known as:
+longitudinal research
+cross-sectional research
+correlational research
+experimental research
+
+The prenatal period that lasts from conception through the second week is the:
+germinal stage
+embryonic stage
+fetal stage
+teratogen stage
+
+The period of human development that extends from birth until the onset of puberty is known as:
+childhood
+infancy
+prenatal stage
+embryonic stage
+
+According to Piaget, as the infant progresses from reflexive, instinctual action at birth to the beginning of symbolic thought, the infant is in the _______ stage of cognitive development.
+formal operational
+concrete operational
+preoperational
+sensorimotor
+
+According to Piaget, the cognitive process that interprets new information in light of existing schemas is known as:
+conservation
+assimilation
+accommodation
+object permanence
+
+During the Piagetian preoperational stage, ________ represents the inability to perceive reality from the perspective of another person.
+egocentrism
+transitive inference
+assimilation
+accommodation
+
+Erikson's psychosocial developmental stage in which success is achieved by having a secure social attachment with a caregiver is known as:
+autonomy versus shame and doubt
+integrity versus despair
+generativity versus stagnation
+trust versus mistrust
+
+The successful resolution of the conflict in Erikson's psychosocial developmental stage known _______ as results in the experience of a unified sense of self.
+autonomy versus shame and doubt
+identity versus role confusion
+generativity versus stagnation
+trust versus mistrust
+
+Noted psychologist Mary Ainsworth studied early attachment in humans using which of the following methods?
+psychosocial development
+social attachment
+strange situation
+industry versus inferiority
+
+According to psychologist Diana Baumrind, which of the following parenting styles has been found to be the best approach?
+democratic
+authoritative
+authoritarian
+permissive
+
+Which of the following parenting styles is most likely to be associated with physical discipline?
+democratic
+authoritative
+authoritarian
+permissive
+
+According to Kohlberg's theory of Moral Development, which of the following stages involves the motivation to follow rational, mutually agreed-upon principles and maintain the respect of others?
+punishment and obedience orientation
+instrumental relativist orientation
+social contract orientation
+universal ethical principle orientation
+
+Which of the following psychologists suggests that Kohlberg's Theory of Moral Development, and Erikson's Psychosocial Theory of Development apply primarily to male populations, with little applicability to female populations?
+Gilligan
+Ainsworth
