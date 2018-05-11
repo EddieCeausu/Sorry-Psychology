@@ -58,7 +58,7 @@
 		margin: 0 auto;
 		width: auto;
 		height: auto;
-		
+
 	}
 	/*
 	// ======================
@@ -66,7 +66,6 @@
 	// ======================
 	*/
 	.center {
-
 		height: auto;
 		border: 5px solid black;
 		background-color: lightblue;
@@ -131,13 +130,19 @@
 
 	}
 	.moveBlocks {
-		width: 80px;
+		width: auto;
 		height: 80px;
 		border: 5px solid black;
 		color: #0000;
 
 	}
 	.topMoveArea {
-		display: inline-flex;
-		align-items: left;
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-template-rows: auto;
+	}
+	.bottomMoveArea {
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-template-rows: auto;
 	}
