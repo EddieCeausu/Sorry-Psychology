@@ -34,36 +34,33 @@
 */
 
 	body {
+		position: static;
 		margin: 0;
 		padding: 0;
 		font-weight: 300;
 	  font-size: 10px;
 	  color: black;
+		overflow: scroll;
 	  text-transform: uppercase;
-	}
+	}/*
 	.table {
 		padding-left: 15em;
 		padding-right: 15em;
 
-	}
+	} */
 	.board {
-		border: 5px solid black;
 		margin: 0 auto;
-		margin-top: 1em;
-		margin-bottom: 1em;
+		margin-right: 2em;
+		border: 5px solid black;
 		width: auto;
 		height: auto;
 		float: right;
 	}
 	.scoreTable {
+		margin-top: 10em;
 		border: 5px solid black;
-		margin: 0 auto;
-		padding-right: 4em;
-		padding-left: 2em;
-		margin-left: 2em;
-    margin-top: 2em;
-		width: auto;
-		height: auto;
+		margin: 2em;
+		padding: 2em;
 		float: left;
 	}
 	/*
@@ -164,7 +161,7 @@
 	.interImg {
 		height: 60px;
 		width: auto;
-		overflow: hidden;
+		overflow: scroll;
 	}
 	.horizontal-row {
 		display: grid;
