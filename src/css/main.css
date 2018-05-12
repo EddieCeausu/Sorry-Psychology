@@ -44,12 +44,27 @@
 	.table {
 		padding-left: 15em;
 		padding-right: 15em;
+
 	}
 	.board {
 		border: 5px solid black;
 		margin: 0 auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
 		width: auto;
 		height: auto;
+		float: right;
+	}
+	.scoreTable {
+		border: 5px solid black;
+		margin: 0 auto;
+		padding-right: 4em;
+		padding-left: 2em;
+		margin-left: 2em;
+    margin-top: 2em;
+		width: auto;
+		height: auto;
+		float: left;
 	}
 	/*
 	// ======================
@@ -82,35 +97,35 @@
 	}
 
 	.Current-Question {
-		padding-top: 2em;
+		height: auto;
 		padding-bottom: 2em;
+		border: 2px dashed black;
 		text-align: center;
 		transform: rotate(-90deg);
 		line-height: 12px;
 	}
 	.start-red {
-		float: left;
-		width: 100px;
+		width: 50px;
+
 	}
 	.home-red {
-		float: right;
-		width: 100px;
+		left: 50;
+		width: 50px;
+
 	}
 	.home-blue {
-		float: right;
-		width: 100px;
+		width: 50px;
+
 	}
 	.start-blue {
-		float: left;
-		width: 100px;
+		width: 50px;
+
 	}
-	#Text1 {
-		font-size: 20px;
+	#Text1, #Text2{
+		font-size: 150px !;
+		font-weight: bold;
 	}
 
-	#Text2 {
-		font-size: 20px;
-	}
 
 	.title {
 		margin: 0 auto;

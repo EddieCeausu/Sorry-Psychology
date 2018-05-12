@@ -1,30 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta name=viewport content='width=device-width, initial-scale=1'>
-<title>Sorry! Psychology</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119138672-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <meta charset="utf-8" />
+    <title>Sorry! Psychology</title>
+    <link rel="stylesheet" type="text/css" href="src/css/main.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119138672-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'UA-119138672-1');
-</script>
+      gtag('config', 'UA-119138672-1');
+    </script>
+
+    <script src="src/js/Game.js" type="text/javascript"></script>
 </head>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
 
-<article>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
-        <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:s807230@student.knoxschools.org">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
-        <p>&mdash; Kyle Keck and Website Creator Extraordinaire Eddie Ceausu</p>
+<body>
+  <div class="scoreTable">
+    <p class="currentScore">
+      <h1>Current Score</h1>
+      <h2 id="Score 1">Red: 0</h2>
+      <h2 id="Score 2">Blue: 0</h2>
+      <p class="modifyable">
+      </p>
+    </p>
+  </div>
+    <div class="table">
+
+        <div class="board">
+
+            <div class="horizontal-row top-row">
+                <div class="moveBlocks 1"><img class="interImg" src="src/tools/gfx/blue-piece.jpg"></div>
+                <div class="moveBlocks 2"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 3"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 4"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 5"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 6"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 7"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 8"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 9"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 10"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 11"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 12"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 13"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 14"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 15"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 16"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+
+            </div>
+
+            <div class="center">
+
+                <div class="content">
+                  <div class="start-blue">
+                      <img src="src/tools/gfx/blue-start-four.png">
+                  </div>
+                    <div class="cardDiscard">
+                        <div class="Previous-Question">
+                            <p id="Text2"></p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="title">
+                    <h1>Sorry!</h1>
+                    <h3>The Psychology Version</h3>
+                </div>
+                <div class="content">
+                    <div class="cardDraw">
+                        <div class="Current-Question">
+                            <p id="Text1">
+                              <form action="">
+                                In________ reinforcement, the reinforcer follows every correct response.<br>
+                                intermittent<input type="radio" value="A">
+                                <br>
+                                partial<input type="radio" value="B">
+                                <br>
+                                negative<input type="radio" value="C">
+                                <br>
+                                Continuous<input type="radio" value="D">
+                                <br>
+                                <input type="submit" value="Submit">
+                              </form>
+</p>
+                        </div>
+                    </div>
+                    <div class="start-red">
+                        <img src="src/tools/gfx/red-start-four.png">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="horizontal-row bottom-row">
+                <div class="moveBlocks 17"><img class="interImg" src="src/tools/gfx/red-piece.jpg"></div>
+                <div class="moveBlocks 18"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 19"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 20"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 21"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 22"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 23"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 24"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 25"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 26"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 27"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 28"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 29"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 30"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 31"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+                <div class="moveBlocks 32"><img class="interImg" src="src/tools/gfx/blank.jpg"></div>
+            </div>
+
+        </div>
     </div>
-</article>
+</body>
+
+</html>
