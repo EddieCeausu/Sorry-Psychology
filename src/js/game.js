@@ -57,7 +57,7 @@ function changePreviousQuestion(dic, response) {
   document.getElementById('question').innerHTML =
   dic.question;
   var answer = dic.option[answers.indexOf(dic.answer)];
-  alert(answer + " " + dic.answer);
+  // alert(answer + " " + dic.answer);
   var uResponse = dic.option[answers.indexOf(response)];
   for(var i = 0; i < dic.option.length; i ++){
     if(answers[i] == dic.answer)
@@ -95,7 +95,7 @@ function movement() {
 
 
 }
-function questionHandler() {
+function questionHandler() { // TODO: FIX PIECE MOVEMENT
   var quest = questionGetter();
   var submit = document.getElementById("submit");
   var response;
