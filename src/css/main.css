@@ -32,7 +32,10 @@
 // GLOBAL
 // =================
 */
-
+::-webkit-scrollbar {
+	width: 0px;  /* remove scrollbar space */
+	background: transparent;  /* optional: just make scrollbar invisible */
+	}
 	body {
 		margin: 0;
 		padding: 0;
@@ -83,9 +86,11 @@
 	}
 	.cardDiscard {
 		display: inline-block;
+		white-space: normal;
 		margin: 0 auto;
 		width: 300px;
-		margin-top: 1em;
+		height: auto;
+		/* margin-top: 1em; */
 		transform: rotate(90deg);
 	}
 	.cardDraw {
@@ -97,6 +102,7 @@
 		/* margin-bottom: -4em; */
 		transform: rotate(90deg);
 	}
+
 	.Current-Question, .Previous-Question {
 		height: auto;
 		padding: .5em;
@@ -105,29 +111,17 @@
 		transform: rotate(-90deg);
 		line-height: 12px;
 	}
-	.start-red {
+	.start-red, .home-red, .start-blue, .home-blue {
 		width: 50px;
-
 	}
-	.home-red {
-		left: 50;
-		width: 50px;
 
-	}
-	.home-blue {
-		width: 50px;
-
-	}
-	.start-blue {
-		width: 50px;
-
-	}
-	#Text1, #Text2{
-		font-size: 150px !;
+	#Text1, #Text2 {
+		/* font-size: 70px !important; */
 		font-weight: bold;
 	}
-
-
+	#Text1, #Text2 h2 {
+		line-height: 20px;
+	}
 	.title {
 		margin: 0 auto;
 		padding: -20px;
@@ -162,7 +156,7 @@
 		border: 2px solid black;
 		color: #0000;
 	}
-	.interImg {
+	.interImg, .currentPiece {
 		height: 60px;
 		width: auto;
 		overflow: scroll;
