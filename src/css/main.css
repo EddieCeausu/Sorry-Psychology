@@ -32,9 +32,17 @@
 // GLOBAL
 // =================
 */
-::-webkit-scrollbar {
-	width: 0px;  /* remove scrollbar space */
-	background: transparent;  /* optional: just make scrollbar invisible */
+	::-webkit-scrollbar {
+		width: 0px;  /* remove scrollbar space */
+		background: transparent;  /* optional: just make scrollbar invisible */
+		}
+	hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
 	}
 	body {
 		margin: 0;
@@ -42,7 +50,7 @@
 		font-weight: 300;
 	  font-size: 10px;
 	  color: black;
-
+		zoom: 80%;
 	  text-transform: uppercase;
 	}
 	.table {
@@ -64,12 +72,14 @@
 	}
 	.scoreTable {
 		display: inline-block;
+		word-wrap: normal;
+		white-space: normal;
 		margin-top: 10em;
 		border: 5px solid black;
 		margin: 2em;
 		padding: 2em;
 		float: left;
-		width: auto;
+		width: 500px;
 	}
 	/*
 	// ======================

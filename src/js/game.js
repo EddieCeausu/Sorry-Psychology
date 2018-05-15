@@ -132,7 +132,7 @@ var questions = [
   "The ________ lobe in the back of the brain is the primary visual cortex.\ntemporal\noccipital\nfrontal\nParietal",
   "::B",
   "Homer suffered major skull damage when his youngest daughter, Maggie, hit him in the head with a large mallet. Dr. Julius Hibbert believes there is damage to the ________ of Homer's brain, because Homer is having trouble comprehending other people's speech and thinking of the proper words to express his own ideas.\nDelgado's\nMilner's\nWernicke's\nGazzaniga's",
-  "::B",
+  "::C",
   "Research on cerebral lateralization suggests that the right hemisphere plays a vital role in:\nvisual-spatial tasks\nmusic\nface recognition\nAll of the above",
   "::D",
   "You are working as a researcher in a toxicology lab. One day, you accidentally inject yourself with curare, a poison that blocks the release of acetylcholine in the nervous system. What will you experience?\nviolent muscle contractions\nhand tremors\nparalysis\nsleeplessness",
@@ -272,7 +272,22 @@ var questions = [
 
 var answered = [];
 var answers = ["A", "B", "C", "D", "E"];
+var incorr_movement = {
+  Eight: 5,
+  Seven: 10,
+  Six: 10,
+  Five: 10,
+  Four: 15,
+  Three: 15,
+  Two: 30,
+  One: 3
+};
+var moveBad = []; // TODO: Implement Sorry
 var score = {
+  red: 0,
+  blue: 0
+};
+var answeredQs = {
   red: 0,
   blue: 0
 };
@@ -294,6 +309,112 @@ var images = {
   startRed2: "src/tools/gfx/red-start-two.png",
   blank: "src/tools/gfx/blank.jpg"
 };
+
+function getIncorrect() {
+  for (var key in incorr_movement) {
+    console.log(key);
+    switch (key) {
+      case incorr_movement.One:
+        for (var i = 0; i < incorr_movement.One; i++)
+          moveBad.push(1);
+        break;
+      case incorr_movement.Two:
+        for (var i = 0; i < incorr_movement.Two; i++)
+          moveBad.push(2);
+        case incorr_movement.Three:
+        for (var i = 0; i < incorr_movement.Three; i++)
+          moveBad.push(3);
+        case incorr_movement.Four:
+        for (var i = 0; i < incorr_movement.Four; i++)
+          moveBad.push(4);
+        case incorr_movement.Five:
+        for (var i = 0; i < incorr_movement.Five; i++)
+          moveBad.push(5);
+        case incorr_movement.Six:
+        for (var i = 0; i < incorr_movement.Six; i++)
+          moveBad.push(6);
+        case incorr_movement.Seven:
+        for (var i = 0; i < incorr_movement.Seven; i++)
+          moveBad.push(7);
+        case incorr_movement.Eight:
+        for (var i = 0; i < incorr_movement.Eight; i++)
+          moveBad.push(8);
+        default:
+        console.log("Not there yet");
+        break;
+
+    }
+  }
+  moveBad.sort();
+}
+
+function changeCurrentQuestion(dic) {
+  var q = dic.question;
+  var o = dic.option;
+  var a = dic.answer;
+  var ptag = document.getElementById('Text1');
+  ptag.innerHTML = htmCreator(q, o, a);
+}
+
+function qCheck(response, answer) {
+  if (response == answer)
+    return true;
+  return false;
+}
+
+function questionHandler() {
+  var quest = questionGetter();
+  changeCurrentQuestion(quest);
+  submit.hidden = false
+  return quest;
+}
+
+function htmCreator(q, o, a) {
+  var input = "<input type=\"radio\" ";
+  var str = "<h2>" + q + "</h2>";
+  for (var i = 0; i < o.length; i++) {
+    str += input + "name=\"Option\" value=\"" + String.fromCharCode(65 + i) + "\"> " + o[i] + "<br />";
+  }
+  return str;
+}
+
+function currentTurn() {
+  if (movesMade % 2 == 0)
+    return "Red";
+  return "Blue";
+}
+
+function updateScoreandQuestions() {
+  document.getElementById('Score 1').innerHTML = `Red: ${score.red}`;
+  document.getElementById('Score 2').innerHTML = `Blue: ${score.blue}`;
+  document.getElementById('Answered 1').innerHTML = `Red: ${answeredQs.red}`;
+  document.getElementById('Answered 2').innerHTML = `Blue: ${answeredQs.red}`;
+}
+
+function movementForward(piece) {
+  var currentPosition,
+    nextPosition;
+  currentPosition = document.getElementById(`block ${currentBlock[piece]}`);
+  nextPosition = document.getElementById(`block ${currentBlock[piece] + 1}`);
+  currentPosition.src = images.blank;
+  currentPosition.className = "interImg " + piece;
+  nextPosition.src = images[piece];
+  nextPosition.className = "currentPiece " + piece;
+}
+
+function movementBackwards(piece) {
+  var currentPosition,
+    nextPosition;
+  var start = piece == 'red' ? 17 : 1;
+  var rand = Math.floor(Math.random() * Math.floor(moveBad.length - 1));
+  currentPosition = document.getElementById(`block ${currentBlock[piece]}`);
+  nextPosition = document.getElementById(`block ${currentBlock[piece] - ((currentBlock[piece] - rand) < start ? start : rand)}`);
+  currentPosition.src = images.blank;
+  currentPosition.className = "interImg " + piece;
+  nextPosition.src = images[piece];
+  nextPosition.className = "currentPiece " + piece;
+  }
+
 function questionGetter() {
   var q,
     a;
@@ -333,16 +454,6 @@ function questionGetter() {
     answer: a.slice(2, 3).toString()
   }
 }
-
-function htmCreator(q, o, a) {
-  var input = "<input type=\"radio\" ";
-  var str = "<h2>" + q + "</h2>";
-  for (var i = 0; i < o.length; i++) {
-    str += input + "name=\"Option\" value=\"" + String.fromCharCode(65 + i) + "\"> " + o[i] + "<br />";
-  }
-  return str;
-}
-
 function changePreviousQuestion(dic, response) {
   var str = "";
   document.getElementById('question').innerHTML = dic.question;
@@ -370,76 +481,46 @@ function changePreviousQuestion(dic, response) {
   var ptag = document.getElementById('Text2').innerHTML = str;
 }
 
-function changeCurrentQuestion(dic) {
-  var q = dic.question;
-  var o = dic.option;
-  var a = dic.answer;
-  var ptag = document.getElementById('Text1');
-  ptag.innerHTML = htmCreator(q, o, a);
-}
-
-function qCheck(response, answer) {
-  if (response == answer)
-    return true;
-  return false;
-}
-function movementForward(piece) {
-  piece = piece.toLowerCase();
-  var currentPosition,
-    nextPosition;
-
-  currentPosition = document.getElementById(`block ${currentBlock[piece]}`);
-  nextPosition = document.getElementById(`block ${currentBlock[piece] + 1}`);
-  currentPosition.src = images.blank;
-  currentPosition.className = "interImg " + piece;
-  nextPosition.src = images[piece];
-  nextPosition.className = "currentPiece " + piece;
-}
-function questionHandler() { // TODO: FIX PIECE MOVEMENT
-  var quest = questionGetter();
-  changeCurrentQuestion(quest);
-  submit.hidden = false
-  return quest;
-}
-function currentTurn() {
-  if (movesMade % 2 == 0)
-    return "Red";
-  return "Blue";
-}
-
 function gameControl() {
   var quest = questionHandler();
   var submit = document.getElementById('submit');
   submit.onclick = function() {
     quest.response = document.querySelector('input[name = "Option"]:checked').value;
     changePreviousQuestion(quest, quest.response);
-    console.log(qCheck(quest.response, quest.answer));
-    if (qCheck(quest.response, quest.answer)) {
+    if (qCheck(quest.response, quest.answer)) { // Answer was Correct
       if (currentTurn() == 'Red') {
         if (currentBlock.red >= 32) { // change start place
           score.red += 1;
           document.getElementById('startPlateRed').src = images[`startRed${Math.abs(score.red - 4)}`];
           document.getElementById('block 32').src = images.blank;
           currentBlock.red = 17;
+          document.getElementById('block 17').src = images.red;
         } else {
-          movementForward('Red');
+          movementForward('red');
           currentBlock.red += 1;
-        }
-
+          answeredQs.red += 1;
+        }/* end correct movement for Red */
       } else {
-        if (currentBlock.blue >= 16) {
+        if (currentBlock.blue >= 16) { // change start place
           score.blue += 1;
-          document.getElementById('startPlaceBlue').src = images[`startBlue${Math.abs(score.blue - 4)}`];
+          document.getElementById('startPlateBlue').src = images[`startBlue${Math.abs(score.blue - 4)}`];
           document.getElementById('block 16').src = images.blank;
           currentBlock.blue = 1;
+          document.getElementById('block 1').src = images.blue;
         } else {
-          movementForward('Blue');
+          movementForward('blue');
           currentBlock.blue += 1;
+          answeredQs.blue += 1;
         }
-      }
+      } // end correct movement for Blue
       movesMade += 1;
-    } else {
-      if (currentTurn() == 'Red') {}
+      updateScoreandQuestions();
+    } else { // answer was incorrect
+      getIncorrect();
+      if (currentTurn() == 'Red')
+        movementBackwards('red');
+      else
+        movementBackwards('blue');
     }
-  }
+  } // end submit function
 }
