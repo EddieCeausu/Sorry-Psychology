@@ -50,7 +50,7 @@
 		overflow: scroll;
 		white-space: nowrap;
 		padding: 1em;
-		width: 1400px;
+		width: auto;
 		height: auto;
 	}
 	.board {
@@ -69,6 +69,7 @@
 		margin: 2em;
 		padding: 2em;
 		float: left;
+		width: auto;
 	}
 	/*
 	// ======================
@@ -109,7 +110,7 @@
 		border: 2px dashed black;
 		text-align: center;
 		transform: rotate(-90deg);
-		line-height: 12px !important;
+		/* line-height: 12px !important; */
 	}
 	.start-red, .home-red, .start-blue, .home-blue {
 		width: 50px;
