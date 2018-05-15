@@ -16,7 +16,7 @@ var questions = [
   "You are absent from school for an afternoon.  When you return, you read the report left by your substitute.  The report states that half of your class behaved wonderfully and completed their entire assignment.  The other half of the class misbehaved and did not finish their assignment.  For the students who behaved, you give them free time on the computer.  For the students who misbehaved, you give them an extra, more difficult assignment to accomplish.  In this situation, you provided…\nPositive reinforcement and positive punishment.\nPositive reinforcement and negative punishment.\nNegative reinforcement and negative punishment.\nNegative reinforcement and positive punishment.",
   "::A",
   "This scientist used operant conditioning to train rats and pigeons to differentiate between light and dark.\nWatson\nPavlov\nSkinner",
-  "::A",
+  "::C",
   "The period of time when the conditioned stimulus first comes to evoke the conditioned response is called:\nAdaptation\nDiscrimination\nAcquisition\nHabituation",
   "::C",
   "Little Albert was conditioned to fear a white rat, but he was also afraid of other furry, white objects. This is called:\nPhobic behavior\nStimulus discrimination\nSuperstitious behavior\nStimulus generalization",
@@ -273,14 +273,14 @@ var questions = [
 var answered = [];
 var answers = ["A", "B", "C", "D", "E"];
 var incorr_movement = {
-  Eight: 5,
-  Seven: 10,
-  Six: 10,
-  Five: 10,
-  Four: 15,
-  Three: 15,
-  Two: 30,
-  One: 3
+  'Eight': 5,
+  'Seven': 10,
+  'Six': 10,
+  'Five': 10,
+  'Four': 15,
+  'Three': 15,
+  'Two': 30,
+  'One': 3
 };
 var moveBad = []; // TODO: Implement Sorry
 var score = {
@@ -311,41 +311,49 @@ var images = {
 };
 
 function getIncorrect() {
+  moveBad.splice(0,moveBad.length);
   for (var key in incorr_movement) {
-    console.log(key);
     switch (key) {
-      case incorr_movement.One:
+      case 'One':
         for (var i = 0; i < incorr_movement.One; i++)
           moveBad.push(1);
         break;
-      case incorr_movement.Two:
+      case 'Two':
         for (var i = 0; i < incorr_movement.Two; i++)
           moveBad.push(2);
-        case incorr_movement.Three:
+          break;
+        case 'Three':
         for (var i = 0; i < incorr_movement.Three; i++)
           moveBad.push(3);
-        case incorr_movement.Four:
+          break;
+        case 'Four':
         for (var i = 0; i < incorr_movement.Four; i++)
           moveBad.push(4);
-        case incorr_movement.Five:
+          break;
+        case 'Five':
         for (var i = 0; i < incorr_movement.Five; i++)
           moveBad.push(5);
-        case incorr_movement.Six:
+          break;
+        case 'Six':
         for (var i = 0; i < incorr_movement.Six; i++)
           moveBad.push(6);
-        case incorr_movement.Seven:
+          break;
+        case 'Seven':
         for (var i = 0; i < incorr_movement.Seven; i++)
           moveBad.push(7);
-        case incorr_movement.Eight:
+          break;
+        case 'Eight':
         for (var i = 0; i < incorr_movement.Eight; i++)
           moveBad.push(8);
+          break;
         default:
-        console.log("Not there yet");
+
         break;
 
     }
   }
   moveBad.sort();
+  
 }
 
 function changeCurrentQuestion(dic) {
@@ -406,9 +414,12 @@ function movementBackwards(piece) {
   var currentPosition,
     nextPosition;
   var start = piece == 'red' ? 17 : 1;
-  var rand = Math.floor(Math.random() * Math.floor(moveBad.length - 1));
+  var rand = moveBad[Math.floor(Math.random() * Math.floor(moveBad.length - 1))];
   currentPosition = document.getElementById(`block ${currentBlock[piece]}`);
-  nextPosition = document.getElementById(`block ${currentBlock[piece] - ((currentBlock[piece] - rand) < start ? start : rand)}`);
+  if(currentBlock < start + 5)
+    return;
+  else
+    nextPosition = document.getElementById(`block ${currentBlock[piece] - ((currentBlock[piece] - rand) < start ? start : rand)}`);
   currentPosition.src = images.blank;
   currentPosition.className = "interImg " + piece;
   nextPosition.src = images[piece];
