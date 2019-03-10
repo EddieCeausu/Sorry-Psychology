@@ -63,6 +63,7 @@
 	}
 	.board {
 		display: inline-block;
+
 		margin: 0 auto;
 		margin-right: 2em;
 		border: 5px solid black;
@@ -72,6 +73,7 @@
 	}
 	.scoreTable {
 		display: inline-block;
+
 		word-wrap: normal;
 		white-space: normal;
 		margin-top: 10em;

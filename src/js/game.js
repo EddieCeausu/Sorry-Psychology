@@ -353,7 +353,7 @@ function getIncorrect() {
     }
   }
   moveBad.sort();
-  
+
 }
 
 function changeCurrentQuestion(dic) {
@@ -427,8 +427,7 @@ function movementBackwards(piece) {
   }
 
 function questionGetter() {
-  var q,
-    a;
+  var q, a;
   var options = [];
   var str = "";
   var rand = Math.floor(Math.random() * Math.floor(questions.length - 1));
